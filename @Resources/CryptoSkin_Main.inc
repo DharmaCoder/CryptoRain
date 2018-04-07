@@ -4,7 +4,8 @@ AccurateText=1
 
 [Metadata]
 Name= CryptoRain
-Author= CleanFlash (http:reddit.com/u/CleanFlash)
+Author= CleanFlash (http:reddit.com/u/CleanFlash) //
+// forked by DharmaCoder (https://github.com/DharmaCoder)
 Information= View cryptocurrencies on your desktop
 Version= 0.1
 License=Creative Commons Attribution - Non - Commercial - Share Alike 3.
@@ -17,14 +18,19 @@ colorRed=242,68,4,255
 colorWhite=255,255,255,255
 refreshRate=1000
 
+
+
 // You can change the URLs in order to fetch your own currencies //
 
-crypto1Url=https://api.coinmarketcap.com/v1/ticker/bitcoin/?convert=EUR
-crypto2Url=https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=EUR
-crypto3Url=https://api.coinmarketcap.com/v1/ticker/litecoin/?convert=EUR
-crypto4Url=https://api.coinmarketcap.com/v1/ticker/dash/?convert=EUR
+
+crypto1Url=https://api.coinmarketcap.com/v1/ticker/electroneum/?convert=USD
+crypto2Url=https://api.coinmarketcap.com/v1/ticker/Monero/?convert=USD
+crypto3Url=https://api.coinmarketcap.com/v1/ticker/vertcoin/?convert=USD
+crypto4Url=https://api.coinmarketcap.com/v1/ticker/bitcoin/?convert=USD
 
 // Define fonts to be used on skins //
+
+
 [MainFontStyle]
 Meter=String
 FontFace=Roboto
